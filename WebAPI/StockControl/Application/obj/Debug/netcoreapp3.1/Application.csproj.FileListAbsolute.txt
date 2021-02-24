@@ -1,0 +1,14 @@
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Application.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Application.pdb
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Domain.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Application\obj\Debug\netcoreapp3.1\Application.pdb

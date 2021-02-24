@@ -1,8 +1,9 @@
 -- Especifico la base de datos.
 USE StockControl
 
-drop table item
 drop table consumed
+drop table item
+
 
 -- Creo las tablas.
 CREATE TABLE item (
@@ -28,7 +29,7 @@ ALTER TABLE consumed ADD FOREIGN KEY (idItem) REFERENCES item (idItem);
 
 --DELETE FROM ITEM 
 
-INSERT INTO ITEM VALUES ('Martillo', 100, Null);
+INSERT INTO ITEM VALUES ('Martillo', 100, 10);
 INSERT INTO ITEM VALUES ('Destornillador', 20, 10);
 INSERT INTO ITEM VALUES ('Alicate', 30, 10);
 INSERT INTO ITEM VALUES ('Pinza', 40, 10);
@@ -36,3 +37,5 @@ INSERT INTO ITEM VALUES ('Llave Inglesa', 50, 10);
 
 
 SELECT * FROM item
+
+UPDATE ITEM SET ITEMDESCRIPTION ='Martillo', STOCK =400, STOCKALERT =10WHERE IDITEM = 1

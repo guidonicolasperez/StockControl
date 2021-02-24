@@ -1,0 +1,12 @@
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.csprojAssemblyReference.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+E:\Google Drive\StockControl SourceCode\StockControl\WebAPI\StockControl\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
