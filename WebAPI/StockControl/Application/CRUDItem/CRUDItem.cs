@@ -35,7 +35,6 @@ namespace Application
             bool updateOk;
             myItem = _dataBase.getItem(description);
 
-            myItem.description = description;
             myItem.stock = myItem.stock + quantity;
 
 
@@ -54,8 +53,44 @@ namespace Application
 
         public Item takeStockFromItem(string description, int quantity)
         {
-            throw new System.NotImplementedException();
+            Item myItem;
+            ItemConsumed myItemConsumed;
+            bool updateOk;
+
+            myItem = _dataBase.getItem(description);
+            myItemConsumed = new ItemConsumed(myItem.id, quantity);
+
+            if (myItem.stock > quantity)
+            {
+                myItem.stock = myItem.stock - quantity;
+
+                updateOk = _dataBase.updateItem(myItem.id, myItem.description, myItem.stock, myItem.stockAlert);
+
+
+                if (updateOk)
+                {
+                    updateOk = _dataBase.newConsumption(myItemConsumed);
+
+                    if (updateOk)
+                    {
+                        return _dataBase.getItem(myItem.description);
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            else
+            {
+                return null;
+            }
         }
+
 
         public Item deleteItem(string itemDescription)
         {

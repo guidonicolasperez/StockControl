@@ -242,14 +242,41 @@ namespace Persistence
             return ok;
         }
 
-        public bool newConsumption(int id, DateTime dateConsumed, int quantityConsumed)
+        public bool newConsumption(ItemConsumed myItemConsumed)
         {
-            throw new NotImplementedException();
+            bool ok = false;
+            int filasAfectadas = -1;
+
+            // Levanto la conexion con mi Base de datos.
+            SqlConnection SQLConnection = Connection.GetConection();
+
+            SqlCommand sqlCommand = new SqlCommand(
+                "INSERT INTO CONSUMED VALUES(" + myItemConsumed.itemID + ", '"+ myItemConsumed.dateConsumed.ToString("yyyy-MM-dd") + "'," + myItemConsumed.quantityConsumed + ")"
+                        , SQLConnection);
+
+            try
+            {
+                SQLConnection.Open();
+
+                filasAfectadas = sqlCommand.ExecuteNonQuery();
+
+                ok = (filasAfectadas >= 1) ? true : false;
+
+                SQLConnection.Close();
+                return ok;
+
+            }
+            catch (Exception e)
+            {
+                return ok;
+            }
         }
 
         public bool deteleConsumptions(int itemID)
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

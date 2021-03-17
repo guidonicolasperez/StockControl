@@ -7,14 +7,14 @@ drop table item
 
 -- Creo las tablas.
 CREATE TABLE item (
-	idItem int IDENTITY  NOT NULL,
+	idItem int IDENTITY NOT NULL,
 	itemDescription varchar(max) NOT NULL,
 	stock int NOT NULL,
 	stockAlert int,
 )
 
 CREATE TABLE consumed (
-	idConsumed int NOT NULL,
+	idConsumed int IDENTITY NOT NULL,
 	idItem int NOT NULL,
 	dateConsumed date NOT NULL,
 	quantityConsumed int NOT NULL,	
@@ -37,5 +37,3 @@ INSERT INTO ITEM VALUES ('Llave Inglesa', 50, 10);
 
 
 SELECT * FROM item
-
-UPDATE ITEM SET ITEMDESCRIPTION ='Martillo', STOCK =400, STOCKALERT =10WHERE IDITEM = 1

@@ -47,6 +47,14 @@ namespace StockControl.Controllers
             return CrudItem.addStockToItem(description, stock);
         }
 
+        [HttpPatch("takeStockFromItem/{description}/{stock}")]
+        public Item takeStockFromItem(string description, int stock)
+        {
+            CRUDItem CrudItem = new CRUDItem();
+
+            return CrudItem.takeStockFromItem(description, stock);
+        }
+
         // DELETE: api/Item/Delete/{id}
         [HttpDelete("Delete/{id}")]
         public void Delete(string id)

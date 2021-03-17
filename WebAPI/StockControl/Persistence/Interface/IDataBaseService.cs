@@ -16,7 +16,7 @@ namespace Persistence
 
         public bool deleteItem(string itemDescription);
 
-        public bool newConsumption(int itemID, DateTime dateConsumed, int quantityConsumed);
+        public bool newConsumption(ItemConsumed myItemConsumed);
 
         public bool deteleConsumptions(int itemID);
 
